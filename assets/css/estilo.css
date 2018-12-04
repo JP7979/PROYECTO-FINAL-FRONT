@@ -7,6 +7,7 @@ font-size: 1.5em;
 text-align: center;
 font-family: 'Black Ops One', cursive;
 color: #fff;}
+
 p{
 color: #000;
 text-align: center;}
@@ -23,45 +24,10 @@ text-align: center;
 font-family: 'Black Ops One', cursive;
 color: #fff;}
 
-.box_3 h1{
-font-size: 1.5em;
-padding: 0 0 0 20px;
-text-align: left;
-color: #000;}
-
-.box_3 p{
-font-size: 1em;
-padding: 0 0 0 20px;
-text-align: left;
-color: #000;}
-
-.titulo_3 {
-font-size: 1.5em;
-padding: 0 0 20px 20px;
-text-align: left;
-color: #000;}
-
-.parrafo_3 {
-font-size: 1em;
-padding: 0 0 10px 20px;
-text-align: left;
-color: #000;}
-
-.titulo, .parrafo{
-color: #fff;
-text-align: center}
-
 .titulo_2, .parrafo_2{
 color: #000000;
 font-family: 'Black Ops One', cursive;
 text-align: center}
-
-.main_header{
-height: 100px; 
-background-color: #ccc;
-position: fixed;
-z-index: 10;
-top:0;}
 
 .box_header{  
 height: 400px; 
@@ -94,11 +60,6 @@ border-radius: 5px;
 cursor: pointer;
 }
 
-.hero-text button:hover {
-background-color: #555;
-color: white;
-}
-
 .box_footer{  
 clear: both;
 background-color: #000000;}
@@ -108,30 +69,6 @@ margin-top: 50px; height: 180px; }
 .box_2{  
 height: 500px; 
 position: relative;}
-.box_3{  
-height: 700px; 
-position: relative;}
-.box_4{  
-height: 100px; 
-position: relative;}
-.box_5{  
-height: 380px; 
-position: relative;}
-
-.button {
-display: block;
-background-color: #6fbaed;
-color: #fff;
-padding: 15px 70px;
-text-decoration: none;
-text-align: center;
-font-size: 1em;
-border-radius: 5px;
-cursor: pointer;
-position: absolute;
-top: 410px;
-right: 50%;
-margin-right: -100px;}
 
 .button_2 {
 display: block;
@@ -148,54 +85,6 @@ top: 100px;
 right: 50%;
 margin-right: -100px;
 }
-
-.button_3 {
-width: 200px;
-display: block;
-background-color: #6fbaed;
-color: #fff;
-padding: 15px 32px;
-text-decoration: none;
-text-align: center;
-font-size: 1em;
-border-radius: 5px;
-cursor: pointer;
-position: absolute;
-top: 600px;
-right: 80%;
-margin-right: -100px;}
-
-.button_4 {
-display: block;
-background-color: #6fbaed;
-color: #fff;
-padding: 15px 32px;
-text-decoration: none;
-text-align: center;
-font-size: 1em;
-border-radius: 5px;
-cursor: pointer;
-position: absolute;
-top: 20px;
-right: 20%;
-margin-right: -100px;}
-
-.button_5 {
-display: block;
-background-color: #6fbaed;
-color: #fff;
-padding: 15px 70px;
-text-decoration: none;
-text-align: center;
-font-size: 1em;
-border-radius: 5px;
-cursor: pointer;
-position: absolute;
-top: 310px;
-right: 50%;
-margin-right: -100px;}
-
-
 
 input[type=text], select, textarea {
 width: 100%;
@@ -292,7 +181,6 @@ transition: border .2s ease-in-out;
 position: relative;
 -webkit-animation: mymove 3s infinite; /* Safari 4.0 - 8.0 */
 animation: mymove 3s infinite;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -322,22 +210,6 @@ margin-top: 50px; height: 200px; }
 height: 450px; 
 position: relative;}
 
-.button_3 {
-position: absolute;
-top: 630px;
-right: 50%;
-margin-right: -100px;}
-
-.button_4 {
-position: absolute;
-top: 20px;
-right: 50%;
-margin-right: -100px;}
-.button_5 {
-position: absolute;
-top: 350px;
-right: 50%;
-margin-right: -100px;}
 .box_2 {
 height: auto;
 position: relative;}
