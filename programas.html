@@ -92,6 +92,7 @@
 	<script src="assets/js/jquery-3.3.1.min.js"> </script>
 	<script src="assets/js/bootstrap.js"></script>
     <script>
+
   /*  Suavizado de scroll (Anclas)*/
 
   $(document).on('click', 'a[href^="#"]', function (event) {
@@ -101,6 +102,14 @@
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 1000);
   });
+</script>
+
+<!-- TOP-UP-BUTTON -->
+
+<div id="pageup"></div>
+<script src="assets/js/jquery.pageup.js"></script>
+<script type="text/javascript">
+  $("#pageup").pageup();
 </script>
 </body>
 </html>
