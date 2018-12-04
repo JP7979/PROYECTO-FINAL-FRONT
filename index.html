@@ -19,7 +19,7 @@
       <a class="active" href="#home">Home</a>
       <a href="programas.html">Programas</a>
       <a href="planes.html">Planes</a>
-      <a href="">Contacto</a>
+      <a href="#contacto">Contacto</a>
     </div>
   </div>
   <div class="container box_header">
@@ -66,7 +66,7 @@
         <h1>MAPA DE NUESTRO BOX</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.4766842316053!2d-70.57642424878276!3d-33.41081460277188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cee0671af66f%3A0x1fcc645dd9767886!2sAv.+Apoquindo%2C+Las+Condes%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1539742989729" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-      <div class="col-md-4 col-md-offset-1">
+      <div id="contacto" class="col-md-4 col-md-offset-1">
         <h1>CONTACTO</h1>
         <form action="#">
           <label for="fname">Nombre</label>
@@ -82,14 +82,19 @@
         </form>
       </div>
     </div>
-
   </div>
-
-
-
-
-
 	<script src="assets/js/jquery-3.3.1.min.js"> </script>
 	<script src="assets/js/bootstrap.js"></script>
+  <script>
+  /*  Suavizado de scroll (Anclas)*/
+
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+  });
+</script>
 </body>
 </html>
